@@ -1,0 +1,104 @@
+header{
+   background: url(../img/destaque.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 32px; 
+}
+
+.menu{
+    text-align: center;
+}
+
+.botao-menu{ 
+     display: inline-block; 
+     font-weight: 1000;
+     margin: 0 2px 32px 0;
+     
+ }
+
+
+ .botao-menu a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.925);
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: background-color 0.5s;
+ }
+
+
+ .botao-menu a:hover{
+     background-color: #48A3A6;
+ }
+
+ 
+ 
+.jumbotron{
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
+}
+ 
+ 
+.secao-painel{
+    color:rgb(245, 245, 245);
+    text-shadow: 4px 4px 10px black;
+}
+ 
+.jumbotron .titulo{
+    font-size: 3em;
+}
+
+
+.jumbotron .subtitulo{
+    font-size: 2.6em;
+    color: rgb(26, 236, 26);
+    padding-top: 8px;
+}
+ 
+
+.jumbotron .button{
+  display: inline-block;
+  color: rgb(245, 245, 245);
+  padding: 20px;
+  background: #48A3A6;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px black;
+}
+
+.principal{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.principal-primeiro{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.principal-segundo{
+    font-size: 24px;
+    margin-bottom: 15px;
+    
+}
+
+
+.principal-paragrafo1 .principal-paragrafo{
+    font-size: 18px;
+    line-height: 35px;
+}
+
+@media (min-width: 650px){
+        .jumbotron{
+            font-size: 28px;
+        }
+}
+ 
+    

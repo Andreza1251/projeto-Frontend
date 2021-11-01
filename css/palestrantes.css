@@ -1,0 +1,54 @@
+.painel-palestrantes{
+    background-color: rgb(212, 100, 59);
+}
+
+
+
+.sobre-palestrantes{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.titulo-p{
+    color: white;
+    margin: 20px 0 8px 0;
+    padding: 20px 0 8px 0;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.subtitulo-p{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+.palestrantes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.palestrante{
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.palestrante-foto img{
+    border-radius: 100%;
+}
+
+.biografia{
+    font-weight: bold;
+}
+
